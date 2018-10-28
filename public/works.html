@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>TYLOR-NIXON|Личный сайт веб-разработчика</title>
+    <meta content="Bochkarev Artem" name="author"/>
+    <meta content="TYLOR-NIXON|Portfolio of web-developer Bochkarev Artem" name="description"/>
+    <meta content="website of web-developer Bochkarev Artem, front-ent, portfolio, resume" name="keywords"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link sizes="16x16" href="./assets/images/favicon.png" rel="icon" type="image/png"/>
+    <link rel="stylesheet" href="./assets/css/foundation.css"/>
+    <link rel="stylesheet" href="./assets/css/app.css"/>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader__spinner">
+        <div class="preloader__animation"></div>
+        <div class="preloader__percents">0%/</div>
+      </div>
+    </div>
+    <div class="hamburger-navigation js-navigation"><!--.active-->
+      <nav class="hamburger-navigation-nav">
+        <ul class="hamburger-navigation__list">
+          <li class="navigation__list__item"><a class="navigation-link" href="./works.html">Мои работы</a></li>
+          <li class="navigation__list__item"><a class="navigation-link" href="./about.html">Обо мне</a></li>
+          <li class="navigation__list__item"><a class="navigation-link" href="./blog.html">Блог</a></li>
+          <li class="navigation__list__item"><a class="navigation-link" href="./index.html">Авторизация</a></li>
+        </ul>
+      </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <div class="wrapper">
+      <section class="hero">
+        <div class="hero__bg"><img src="./assets/images/bg-main.jpg" alt="bg-main"/></div>
+        <div class="hero__header">
+          <div class="hero__header__left">
+            <ul class="header__socials">
+              <li class="socials__item"><a class="socials__link socials__link--vk" href="https://vk.com/">
+                  <svg class="socials__link__svg socials__link__svg--vk">
+                    <use xlink:href="./assets/images/sprite.svg#icons--vk"></use>
+                  </svg></a></li>
+              <li class="socials__item"><a class="socials__link socials__link--github" href="https://github.com/TheTaylorNixON">
+                  <svg class="socials__link__svg socials__link__svg--github">
+                    <use xlink:href="./assets/images/sprite.svg#icons--github"></use>
+                  </svg></a></li>
+              <li class="socials__item"><a class="socials__link socials__link--in" href="https://github.com/TheTaylorNixON">
+                  <svg class="socials__link__svg socials__link__svg--in">
+                    <use xlink:href="./assets/images/sprite.svg#icons--in"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <div class="hero__header__right"><a class="hamburger js-hamburger" id="hamburger">
+              <div class="hamburger__stick hamburger__stick--top"></div>
+              <div class="hamburger__stick hamburger__stick--middle"></div>
+              <div class="hamburger__stick hamburger__stick--bottom"></div></a>
+          </div>
+        </div>
+        <div class="hero__user">
+          <div class="hero__person">
+            <div class="hero__person__pic"> </div>
+            <h1 class="hero__person__name">Артем Бочкарев</h1>
+            <p class="hero__person__info">Личный сайт веб разработчика</p>
+          </div>
+        </div>
+        <svg class="hero__down-arrow-icon arrow" id="arrow">
+          <use xlink:href="./assets/images/sprite.svg#icons--arrow_down"></use>
+        </svg>
+      </section>
+      <section class="works js-section">
+        <svg class="triangle-left works-triangles" viewbox="0 0 1000 100" preserveAspectRatio="none">
+          <polygon points="0,0 0,100 1000,100"></polygon>
+        </svg>
+        <svg class="triangle-right works-triangles" viewbox="0 0 1000 100" preserveAspectRatio="none">
+          <polygon points="0,100 1000,100 1000,0"></polygon>
+        </svg>
+        <div class="works__title">Мои работы</div>
+        <div class="main-container">
+          <div class="works__content" id="slider">
+            <div class="works__content__left">
+              <div class="content__left-title"> 
+                <h4 class="js-slider-subtitle">MY WEBSITE</h4>
+              </div>
+              <p class="content__left-text js-slider-tehnologes">HTML5, CSS3, PUG, SASS, JAVASCRIPT, JQUERY</p><a class="content__left-button js-slider-site" href="https://github.com/TheTaylorNixON/project-portfolio" target="_blank">
+                <p>Посмотреть сайт</p></a>
+            </div>
+            <div class="works__content__right">
+              <div class="works__content__display js-slider-display"><img class="slider__image js-slider-display-img" src="assets/images/works.jpg" alt="work-image"/></div>
+              <div class="works__content__buttons">           <a class="slider-list__link js-slider-bth--left slider-list__link--left">
+                  <ul class="slider-list__list js-slider-list">
+                    <li class="slider-list__item js-slider-item" data-title="my website" data-skills="HTML5, CSS3, PUG, SASS, JAVASCRIPT, JQUERY, GULP, NPM" data-link="https://github.com/TheTaylorNixON/project-portfolio"><img class="c-slider-list__image" src="./assets/images/works.jpg" alt="resume"/></li>
+                    <li class="slider-list__item js-slider-item" data-title="Avito parser" data-skills="HTML5, CSS3, JAVASCRIPT, JQUERY, AJAX, PYTHON, FLASK" data-link="https://github.com/TheTaylorNixON/avito-parser"><img class="c-slider-list__image" src="./assets/images/works2.jpg" alt="Avito parser"/></li>
+                    <li class="slider-list__item js-slider-item" data-title="Workadium" data-skills="HTML5, CSS3" data-link="https://github.com/TheTaylorNixON/workadium"><img class="c-slider-list__image" src="./assets/images/works3.jpg" alt="Workadium"/></li>
+                    <li class="slider-list__item js-slider-item active" data-title="Battleship game" data-skills="HTML5, CSS3, JAVASCRIPT" data-link="https://github.com/TheTaylorNixON/battleship"><img class="c-slider-list__image" src="./assets/images/works4.jpg" alt="Battleship"/></li>
+                  </ul>
+                  <div class="slider-arrow slider-arrow--down">
+                    <svg class="slider-arrow-svg">
+                      <use xlink:href="./assets/images/sprite.svg#icons--works-down-arrow">                                   </use>
+                    </svg>
+                  </div></a><a class="slider-list__link js-slider-bth--right slider-list__link--right">
+                  <ul class="slider-list__list js-slider-list">
+                    <li class="slider-list__item js-slider-item" data-title="my website" data-skills="HTML5, CSS3, PUG, SASS, JAVASCRIPT, JQUERY, GULP, NPM" data-link="https://github.com/TheTaylorNixON/project-portfolio"><img class="c-slider-list__image" src="./assets/images/works.jpg" alt="resume"/></li>
+                    <li class="slider-list__item js-slider-item active" data-title="Avito parser" data-skills="HTML5, CSS3, JAVASCRIPT, JQUERY, AJAX, PYTHON, FLASK" data-link="https://github.com/TheTaylorNixON/avito-parser"><img class="c-slider-list__image" src="./assets/images/works2.jpg" alt="Avito parser"/></li>
+                    <li class="slider-list__item js-slider-item" data-title="Workadium" data-skills="HTML5, CSS3" data-link="https://github.com/TheTaylorNixON/workadium"><img class="c-slider-list__image" src="./assets/images/works3.jpg" alt="Workadium"/></li>
+                    <li class="slider-list__item js-slider-item" data-title="Battleship game" data-skills="HTML5, CSS3, JAVASCRIPT" data-link="https://github.com/TheTaylorNixON/battleship"><img class="c-slider-list__image" src="./assets/images/works4.jpg" alt="Battleship"/></li>
+                  </ul>
+                  <div class="slider-arrow slider-arrow--up">
+                    <svg class="slider-arrow-svg">
+                      <use xlink:href="./assets/images/sprite.svg#icons--works-up-arrow"></use>
+                    </svg>
+                  </div></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="main-container--column">
+          <div class="reviews__wrap">
+            <div class="works__title">Что обо мне <br >говорят</div>
+            <ul class="reviews-list">
+              <li class="reviews-list__item">
+                <div class="item__pic"><img class="item__pic__img" src="./assets/images/review1.jpg" alt=""/></div>
+                <div class="item__text">Этот код выдержит любые испытания. Только <br> пожалуйста, не загружается сайт на слишком <br> старых браузерах!</div>
+                <div class="item__name"> Фамилия Имя</div>
+                <div class="item__profession">— специальность</div>
+              </li>
+              <li class="reviews-list__item">
+                <div class="item__pic"><img class="item__pic__img" src="./assets/images/review2.jpg" alt=""/></div>
+                <div class="item__text">Этот код выдержит любые испытания. Только <br> пожалуйста, не загружается сайт на слишком <br> старых браузерах!</div>
+                <div class="item__name">Фамилия Имя</div>
+                <div class="item__profession">— специальность</div>
+              </li>
+              <li class="reviews-list__item">
+                <div class="item__pic"><img class="item__pic__img" src="./assets/images/review2.jpg" alt=""/></div>
+                <div class="item__text">Этот код выдержит любые испытания. Только <br> пожалуйста, не загружается сайт на слишком <br> старых браузерах!</div>
+                <div class="item__name">Фамилия Имя</div>
+                <div class="item__profession">— специальность</div>
+              </li>
+            </ul>
+          </div>
+          <div class="reviews__background"><img class="works-reviews-img" src="./assets/images/works-reviews.jpg" alt=""/>
+            <form class="feedback-wrapper" action="contact" method="POST">
+              <div class="feedback">
+                <div class="feedback__title about__title">Связаться со мной</div>
+                <div class="feedback__form">
+                  <div class="feedback__form__item">
+                    <label class="feedback__form__label feedback__form__label--top" for="">
+                      <input class="feedback__form__input" type="text" placeholder="Имя" name="name"/>
+                    </label>
+                    <label class="feedback__form__label" for="">
+                      <input class="feedback__form__input" type="email" placeholder="Email" name="email"/>
+                    </label>
+                    <label class="feedback__form__label" for="">
+                      <textarea class="feedback__form__textarea" name="text" placeholder="Ваше сообщение" required="required"></textarea>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback-buttons">
+                <input class="feedback-button feedback-buttons__submit" type="submit" value="Отправить"/>
+                <input class="feedback-button feedback-buttons__reset" type="reset" value="Очистить"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer footer--undefined">
+        <div class="main-footer">
+          <div class="footer__left">
+            <p>- Я бы исправил, но боюсь еще больше багов наплодить.</p>
+            <p>- Ну не совсем бездельничал — хабр читал...</p>
+            <p>- А обновить пробовали? Контрол-эф-пять.</p>
+          </div>
+          <div class="footer__middle">
+            <ul class="middle-titles">
+              <li class="titles__items"> <a href="./works.html">Мои работы</a></li>
+              <li class="titles__items"> <a href="./about.html">Обо мне</a></li>
+              <li class="titles__items"> <a href="./blog.html">Блог</a></li>
+              <li class="titles__items"> <a href="./index.html">Авторизация                            </a></li>
+            </ul>
+            <ul class="header__socials">
+              <li class="socials__item"><a class="socials__link socials__link--vk" href="https://vk.com/">
+                  <svg class="socials__link__svg socials__link__svg--vk">
+                    <use xlink:href="./assets/images/sprite.svg#icons--vk"></use>
+                  </svg></a></li>
+              <li class="socials__item"><a class="socials__link socials__link--github" href="https://github.com/TheTaylorNixON">
+                  <svg class="socials__link__svg socials__link__svg--github">
+                    <use xlink:href="./assets/images/sprite.svg#icons--github"></use>
+                  </svg></a></li>
+              <li class="socials__item"><a class="socials__link socials__link--in" href="https://github.com/TheTaylorNixON">
+                  <svg class="socials__link__svg socials__link__svg--in">
+                    <use xlink:href="./assets/images/sprite.svg#icons--in"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <div class="right__text">Всегда пишите код так, будто сопровождать <br> его будет склонный к насилию психопат, <br> который знает, где вы живете. <br> <em>— Martin Golding</em></div>
+          </div>
+        </div>
+        <div class="second-footer"><a class="second-footer__text" href="https://github.com/TheTaylorNixON">© Артем Бочкарев | 2018</a></div>
+      </footer>
+    </div>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/preloader.js"></script>
+    <script src="./assets/js/parallax.js"></script>
+    <script src="./assets/js/hamburger.js"></script>
+  </body>
+</html>
