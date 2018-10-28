@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Battle Ship</title>
+    <link rel="stylesheet" href="./css/battleship.css">
+</head>
+<body>
+    <div class="board">
+        <img src="./img/board.jpg" alt="board">
+        <table>
+            <tr>
+                <td id="100"></td><td id="101"></td><td id="102"></td><td id="103"></td><td id="104"></td><td id="105"></td><td id="106"></td>
+            </tr>
+            <tr>
+                <td id="110"></td><td id="111"></td><td id="112"></td><td id="113"></td><td id="114"></td><td id="115"></td><td id="116"></td>
+            </tr>
+            <tr>
+                <td id="120"></td><td id="121"></td><td id="122"></td><td id="123"></td><td id="124"></td><td id="125"></td><td id="126"></td>
+            </tr>
+            <tr>
+                <td id="130"></td><td id="131"></td><td id="132"></td><td id="133"></td><td id="134"></td><td id="135"></td><td id="136"></td>
+            </tr>
+            <tr>
+                <td id="140"></td><td id="141"></td><td id="142"></td><td id="143"></td><td id="144"></td><td id="145"></td><td id="146"></td>
+            </tr>
+            <tr>
+                <td id="150"></td><td id="151"></td><td id="152"></td><td id="153"></td><td id="154"></td><td id="155"></td><td id="156"></td>
+            </tr>
+            <tr>
+                <td id="160"></td><td id="161"></td><td id="162"></td><td id="163"></td><td id="164"></td><td id="165"></td><td id="166"></td>
+            </tr>
+        </table>
+    </div>
+    <input type="button" id="restart" value="RESTART">
+    <input type="button" id="generateButton" value="Generate new ships!">
+    <div id="messageArea">Let's start !</div>
+    <form action="">
+        <input type="text" id="guessInput" placeholder="A0">
+        <input type="button" id="fireButton" value="Fire!">
+    </form>
+    <div class="board">        
+        <img src="./img/board.jpg" alt="board">
+        <table id="table">
+            <tr>
+                <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
+            </tr>
+            <tr>
+                <td id="10"></td><td id="11"></td><td id="12"></td><td id="13"></td><td id="14"></td><td id="15"></td><td id="16"></td>
+            </tr>
+            <tr>
+                <td id="20"></td><td id="21"></td><td id="22"></td><td id="23"></td><td id="24"></td><td id="25"></td><td id="26"></td>
+            </tr>
+            <tr>
+                <td id="30"></td><td id="31"></td><td id="32"></td><td id="33"></td><td id="34"></td><td id="35"></td><td id="36"></td>
+            </tr>
+            <tr>
+                <td id="40"></td><td id="41"></td><td id="42"></td><td id="43"></td><td id="44"></td><td id="45"></td><td id="46"></td>
+            </tr>
+            <tr>
+                <td id="50"></td><td id="51"></td><td id="52"></td><td id="53"></td><td id="54"></td><td id="55"></td><td id="56"></td>
+            </tr>
+            <tr>
+                <td id="60"></td><td id="61"></td><td id="62"></td><td id="63"></td><td id="64"></td><td id="65"></td><td id="66"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./js/battleship.js"></script>
+</body>
+</html>
