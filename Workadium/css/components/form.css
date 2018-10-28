@@ -1,0 +1,155 @@
+/* форма отправки отзыва*/
+.form {
+    width: 703px;
+    height: 430px;
+    background-color: #f5f5f5;
+    margin-left: 50px;
+    border-radius: 30px;
+    margin-bottom: 65px;
+}
+
+.form__title {
+    padding: 19px 0 19px 67px;
+}
+
+.form__h1 {
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 4px;
+}
+
+.form__field {
+    padding-left: 70px;
+}
+
+.form__row {
+    margin-bottom: 17px;
+}
+
+.form__name, .form__vk {
+    float: left;
+    padding-right: 19px;
+}
+
+.form__text {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.form__row input {
+    width: 272px;
+    height: 48px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.form__text textarea {
+    width: 564px;
+    height: 93px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #221f1f;
+    padding-top: 8px;
+    padding-left: 8px;
+    resize: none;
+    font-weight: 300;
+}
+
+.form__buttons {
+    margin-top: 13px;
+}
+
+.form__buttons__left, .form__buttons__right {
+    float: left;
+    width: 50%;
+}
+
+.form__buttons__right {
+    text-align: right;
+}
+
+.send_button {
+    width: 142px;
+    height: 48px;
+    background-color: #27273e;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    border-radius: 5px;
+    margin-right: 68px;
+    cursor: pointer;
+}
+
+.send_button:hover {
+    background-color:  #ec1e79;
+}
+
+.form__buttons__left__text {
+    color: #221f1f;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form__radio {
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+.form__radio, .form__radio__text {
+    display: inline-block;
+}
+
+.radio_test {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #cbcbcb;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+
+.form__radio-elem:checked + .radio_test {
+    border: 1px solid #ec1e79;
+}
+
+.form__radio-elem {
+    display: none;
+}
+
+.radio_test:after {
+    content: "";
+    display: none;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    background: #ec1e79;
+    border-radius: 50%;
+    top: 30%;
+    left: 30%;
+}
+
+.form__radio-elem:checked + .radio_test:after {
+    display: block;
+}
+
+.form__radio-elem:checked + .radio_test + .form__radio__text {
+    color: #ec1e79;
+}
+
+.form__textarea:focus {
+    border-color: #ec1e79;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ec1e79;
+    outline: none;
+}

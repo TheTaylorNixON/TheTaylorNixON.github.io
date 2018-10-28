@@ -1,0 +1,67 @@
+.sidebar {
+    width: 130px;
+    float: left;
+    margin-left: 17px;
+    margin-top: 33px;
+}
+
+.nav__menu__link {
+    text-decoration: none;
+}
+
+.nav__menu__text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #221f1f;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.nav__menu__icon {
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../../img/icons/icons-sprite.png") 0 0 no-repeat;
+    margin-right: 13px;
+}
+
+.nav__menu__icon--triangle {
+    height: 20px;
+    width: 19px;
+    background-position: 0 -100px; 
+}
+
+.nav__menu__icon--wallet {
+    width: 19px;
+    height: 21px;
+    background-position: -100px -100px; 
+}
+
+.nav__menu__icon--star {
+    width: 21px;
+    height: 19px;
+    background-position: -200px -100px; 
+}
+
+.nav__menu__main:hover .nav__menu__icon--triangle {
+    background-position: 0 0;
+}
+.nav__menu__main:hover .nav__menu__text--triangle {
+    color: #ec1e79;
+}
+
+.nav__menu__rates:hover .nav__menu__icon--wallet {
+    background-position: -100px 0; 
+}
+.nav__menu__rates:hover .nav__menu__text--wallet {
+    color: #ec1e79;
+}
+
+.nav__menu__reviews:hover .nav__menu__icon--star {
+    background-position: -200px 0; 
+}
+.nav__menu__reviews:hover .nav__menu__text--star {
+    color: #ec1e79;
+}

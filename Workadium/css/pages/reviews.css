@@ -1,0 +1,91 @@
+.reviews-h1 {
+    margin: 80px 0 0 46px;
+    font-size: 49px;
+}
+
+.reviews__list__item {
+    display: inline-block;
+    margin-bottom: 11px;
+}
+
+.reviews__photo {
+    float: left;
+    margin: 37px 0 0 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 85px;
+    overflow: hidden;
+}
+
+.reviews__frame {
+    float: left;
+    width: 700px;
+    margin: 29px 0 1px 21px;
+}
+
+.reviews__data {
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.reviews__title {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 300;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.reviews__text {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 9px;
+    text-align: justify;
+}
+
+.pagination {
+    margin: 21px 0 70px 262px;
+}
+
+.pagination__text {
+    display: inline-block;
+    color: #656464;
+    font-size: 14px;
+    margin-right: 13px;
+}
+
+.pagination__buttons {
+    display: inline-block;
+    font-size: 0;
+}
+
+.pagination__buttons__list__item {
+    display: inline-block;
+}
+
+.pagination__buttons__list__item__link {
+    display: block;
+    color: #221f1f;
+    text-decoration: none;
+    text-align: center;
+    width: 25px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pagination__buttons__list__item:hover .pagination__buttons__list__item__link {
+    background-color: #27273e;
+    color: #ec1e79;
+    border-radius: 5px;
+}
+
+.pagination__buttons__list__item__link--selected {
+    background-color: #27273e;
+    color: #ec1e79;
+    border-radius: 5px;
+}

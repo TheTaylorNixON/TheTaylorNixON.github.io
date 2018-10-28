@@ -1,0 +1,81 @@
+.main-page {
+    margin-left: 52px;
+}
+
+.main_pic {
+    position: relative;
+}
+
+.main_pic__text {
+    position: absolute;
+    color: #ffffff;
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 43%;
+    left: 63px;
+}
+
+/*Основной текст на странице*/
+.main_text {
+    font-size: 18px;
+    line-height: 30px;
+    width: 676px;
+    margin-bottom: 24px;
+}
+
+.main_text p {
+    margin-bottom: 10px;
+}
+
+.main_text__title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main_text__list {
+    list-style-type: disc;
+    margin-left: 34px;
+    margin-top: 5px;
+    line-height: 32px;
+}
+
+.main_sale {
+    width: 700px;
+    background-color: #27273e;
+    margin-bottom: 58px;
+}
+
+.main_sale__text {
+color: #ffffff;
+font-size: 18px;
+line-height: 30px;
+padding: 12px 50px 11px 31px;
+}
+
+.main_sale__text span {
+    color: #ec1e79;
+    font-weight: 700;
+}
+
+.partners__title {
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.partners__list__item {
+    display: inline-block;
+    margin-right: 120px;
+    margin-bottom: 62px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    vertical-align: middle;
+}
+
+.partners__list__item:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transition: 0.5s;
+}
