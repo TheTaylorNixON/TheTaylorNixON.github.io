@@ -559,10 +559,10 @@ a {
     height: auto; } }
 
 .section1-bg {
-  background-image: url(../img/main.jpg);
+  /*background-image: url(../img/main.jpg);*/
   background-image: url(../img/main5.jpg);
-  background-image: url(../img/main6.jpg);
-  background-image: url(../img/main7.jpg);
+/*  background-image: url(../img/main6.jpg);
+  background-image: url(../img/main7.jpg);*/
   background-size: cover;
   position: absolute;
   z-index: -1;
