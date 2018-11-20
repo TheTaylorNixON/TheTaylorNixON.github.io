@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="27px" viewBox="0 0 58 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_car</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5309_UK_G4B_New_Page_Desktop_B" transform="translate(-113.000000, -1455.000000)" stroke="#FAB621">
+            <g id="icon_car" transform="translate(113.000000, 1456.000000)">
+                <g id="Artboard-1-copy-3">
+                    <path d="M31.71,1.81 C32.987951,1.22184447 34.3304468,0.785533347 35.71,0.51 C36.97,0.44 38.2,0.85 37.13,1.39 C37.43,2.45 37.43,2.95 37.13,3.26 C35.5526325,2.14882841 33.6314889,1.63486932 31.71,1.81 Z" id="Shape" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                    <path d="M44.64,21.59 C43.34,21.69 26.31,21.54 16.45,21.37" id="Shape" stroke-width="1.4"></path>
+                    <path d="M7.45,21.21 C6.78,21.21 1.66,20.38 1.35,19.81 C1.07291858,19.2633524 0.899975037,18.6699186 0.84,18.06 C0.825020587,17.4747761 0.930538992,16.892723 1.15,16.35 L1.72,16 L1.72,15.44 C1.70508427,14.8052018 1.79980699,14.1725894 2,13.57 C2.31,12.69 3.65,9.9 4.63,9.9 C6.18,6.9 7.31,4.79 8.35,3.81 C9.39,2.83 10.15,1.81 15.78,1.43 C21.6825473,1.16424404 27.5968048,1.35481085 33.47,2 C35.0127215,2.37761258 36.433982,3.14158312 37.6,4.22 C38.38,4.94 43.8,9.85 43.8,9.85 C43.8,9.85 52,11 53.14,11.19 C54.28,11.38 55.47,11.66 55.62,11.97 C56.3984008,13.941546 56.9193619,16.005224 57.17,18.11 C57.02,19.81 56.86,20.9 56.29,21.11 C55.4149892,21.2287125 54.5330261,21.2888463 53.65,21.29" id="Shape" stroke-width="1.4"></path>
+                    <circle id="Oval" stroke-width="1.4" cx="11.53" cy="19.97" r="4.65"></circle>
+                    <circle id="Oval" stroke-width="1.4" cx="48.96" cy="19.97" r="4.65"></circle>
+                    <path d="M44.16,19.5 L16.33,19.35" id="Shape" stroke-width="1.4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M39.36,8.61 C39.36,8.61 35.56,5.17 34.63,4.55 C33.7,3.93 29.44,3.34 26,3.34 C22.56,3.34 14.33,3.34 12.78,3.65 C11.23,3.96 10.51,3.86 9.47,6.23 C8.43,8.6 8,9.33 10,9.54 C12,9.75 37.57,9.85 38.5,9.95 C39.43,10.05 39.87,9.23 39.36,8.61 Z" id="Shape" stroke-width="1.4"></path>
+                    <polyline id="Shape" stroke-width="1.4" fill="#FFFFFF" fill-rule="nonzero" points="28.31 3.34 28.93 9.95 28.93 19.45"></polyline>
+                    <path d="M17.46,3.45 L16.51,8.8 L15.51,13.59 C16.6372222,14.3445674 17.3871533,15.5459134 17.57,16.89" id="Shape" stroke-width="1.4" stroke-linecap="round"></path>
+                    <path d="M53.5,19.45 C53.5,19.45 56.71,19.56 57.02,19.25" id="Shape" stroke-width="1.4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
